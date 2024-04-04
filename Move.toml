@@ -1,0 +1,15 @@
+[package]
+name = "kari"
+version = "0.0.1"
+license = "Academic Free License v3.0"
+authors = ["James Atomc (co-founder@kanari.network)"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+MoveStdlib = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/move-stdlib" }
+
+[addresses]
+sui = "0x2"
+kari = "0x0"
+admin = "2fa1945d0df10e88cbc6779d65f12d156e5f33d4cde90dde4992b56ee388870e"
+
